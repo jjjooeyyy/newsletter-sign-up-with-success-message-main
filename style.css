@@ -1,0 +1,92 @@
+/**** Mobile first *****/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+
+}
+
+p {
+    font-size: 16px;
+}
+
+.background {
+overflow: hidden;
+
+background-size: cover;
+}
+
+
+.content {
+width: 100%;
+}
+
+.content h1 {
+    padding: 5%;
+    font-weight: 700;
+    font-size: 35px;
+    color:hsl(235, 18%, 26%);
+}
+
+.content p {
+    padding: 3% 5%;
+}
+
+.content .highlights {
+    display: flex;
+    flex-direction: row;
+    color:hsl(235, 18%, 26%);
+    padding: 5%;
+}
+
+.content .highlights img {
+    padding-right: 3%;
+}
+
+.content .highlights p {
+    padding: 5px;
+    color:hsl(235, 18%, 26%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+
+.email p {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.email input {
+    margin: 1% ;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+button {
+    margin-top: 10%;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button p {
+    font-size: 15px;
+    width: 100%;
+}
